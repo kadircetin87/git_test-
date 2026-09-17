@@ -1,1 +1,3 @@
 git init für den start
+git add <file>
+git commit -m "Erster Commit"
