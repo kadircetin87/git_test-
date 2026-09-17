@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>max-width Deneyimi</title>
+    <!-- Alttaki satır, HTML ile CSS dosyasını birbirine bağlar -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>max-width ve width Arasındaki Fark</h2>
+    <p class="aciklama">Tarayıcı penceresini sağdan daraltarak farkı gözlemle!</p>
+
+    <!-- YEŞİL KUTU: Mobil uyumlu -->
+    <div class="esnek-kutu">
+        <h3>1. Doğru Yöntem (max-width: 600px)</h3>
+        <p>Bu kutu büyük ekranlarda en fazla 600px olur. Ekran küçüldüğünde ekranla birlikte daralır.</p>
+    </div>
+
+    <!-- KIRMIZI KUTU: Sabit -->
+    <div class="sabit-kutu">
+        <h3>2. Hatalı Yöntem (width: 600px)</h3>
+        <p>Bu kutu hep 600px kalır. Ekran küçüldüğünde ekrandan taşar ve altta kaydırma çubuğu çıkar.</p>
+    </div>
+
+</body>
+</html>

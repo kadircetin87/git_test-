@@ -1,0 +1,18 @@
+.header-box{
+background-color: green;
+
+}
+
+
+.header-box > h1{
+
+    color:white
+
+}
+
+
+.header-box > p{   
+    
+color: blue
+
+}

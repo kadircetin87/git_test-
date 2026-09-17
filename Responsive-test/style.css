@@ -1,0 +1,60 @@
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .blue{
+    background-color: rgb(140, 140, 126);
+}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    .blue{
+    background-color: rgb(158, 158, 11);
+}
+
+}
+
+p{
+max-width: 64ch;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2, .aciklama {
+    text-align: center;
+}
+
+/* YEŞİL KUTU: max-width kullanan akıllı kutu */
+.esnek-kutu {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+/* KIRMIZI KUTU: width kullanan inatçı kutu */
+.sabit-kutu {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #f44336;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
